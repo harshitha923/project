@@ -1,10 +1,27 @@
-## Secure Data Encryption and Authentication System
-This Python script demonstrates two types of encryption systems:
+# 🔐 Secure Data Encryption and Authentication System
 
-    1. Custom Caesar Cipher
-    2. AES-based Secure Encryption with Fernet – uses strong cryptographic standards for secure data handling.
+This Python project demonstrates a hybrid encryption mechanism combining a simple Caesar Cipher with secure AES-based encryption using the `cryptography` library. It also includes a basic admin login system with credential validation and access-controlled decryption.
 
-It also implements:
-    File handling (encrypt_data.txt)
-    User authentication simulation (simple in-memory database)
-    Real-time encryption/decryption flow
+---
+
+## Features
+
+- Hybrid encryption: Caesar Cipher + Fernet (AES)
+- Simple admin authentication system
+- Encrypted data stored in files securely
+- Demonstrates secure key generation, encryption, and decryption
+- Easy to test and extend for educational or demonstration purposes
+
+---
+
+## Technologies Used
+
+- Python 3.x
+- `cryptography` (Fernet)
+- File I/O
+- Custom Caesar Cipher logic
+
+---
+
+
+
